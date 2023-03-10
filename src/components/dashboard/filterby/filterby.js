@@ -3,14 +3,14 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 import { useEffect, useState } from 'react';
 import { useDebounce } from 'use-lodash-debounce'
 
-const sortByArr=['Unit ID','Unit type','Unit price']
 
-const Filterby = ({applyFIlter}) => {
-    const [selectedFilter, setSelectedFilter] = useState('');
+
+const Filterby = ({applyFIlter,applySort,sortByArr,selectedSortby, setSelectedSortby}) => {
+    // const [selectedSortby, setSelectedSortby] = useState('');
     const [searchUnitID, setSearchUnitID] = useState('');
 // --------------------------------------------------------------------------------------------
 const onselectSortBy=(sortBy)=>{
-    setSelectedFilter(sortBy);
+    applySort(sortBy)
    }
    const debouncedSearchUnitID = useDebounce(searchUnitID, 800);
 // --------------------------------------------------------------------------------------------
@@ -21,7 +21,7 @@ useEffect(() => {
 }, [debouncedSearchUnitID]);
 // --------------------------------------------------------------------------------------------
 useEffect(() => {
-    setSelectedFilter[sortByArr[0]]
+    setSelectedSortby[sortByArr[0]]
    }, []);
 // --------------------------------------------------------------------------------------------
 return (
@@ -34,9 +34,9 @@ return (
 
             <div className={styles.sortby_wrapper}>
               <FilterListIcon sx={{fontSize:'1rem'}}/> <span style={{fontSize: '11px',paddingRight:'5px'}}>Sort by</span>
-              <select onChange={(e) => { onselectSortBy(e.target.value) }} className={styles.sortby_select} value={selectedFilter}>
+              <select onChange={(e) => { onselectSortBy(e.target.value) }} className={styles.sortby_select} value={selectedSortby}>
                     {sortByArr.map((el, i) => {
-                        return <option key={i} style={{ width: '1260px', height: '36px' }} value={el}>{el}</option>
+                        return <option key={i}  value={el}>{el}</option>
                     })}
                 </select> 
            

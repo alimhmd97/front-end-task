@@ -2,11 +2,12 @@ import { Pagination } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import PaginationItem from '@mui/material/PaginationItem';
+import styles from './pagination.module.css'
 
 const Muipagination = ({ count, handleChange,pageNumber}) => {
 
-  return (<div className='my-3'>
-    <div className='pt-3 pb-5 d-flex w-100 justify-content-center' >
+  return (<div >
+    <div className={styles.padination_wrapper} >
       <Pagination
         shape="rounded"
         count={count} page={pageNumber} onChange={(e, value) => {

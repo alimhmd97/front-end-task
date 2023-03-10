@@ -12,7 +12,7 @@
         ],
         "unit_id": "C1-B1-6-1",
         "total_price": 4540100,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 186
       },
       {
@@ -27,7 +27,7 @@
         ],
         "unit_id": "C1-A1-G-2",
         "total_price": 3110600,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 139
       },
       {
@@ -40,7 +40,7 @@
         ],
         "unit_id": "C3-CH13-1-1",
         "total_price": 5970000,
-        "unit_type": "chalet",
+        "unit_type": "3",
         "bua": 180
       },
       {
@@ -55,7 +55,7 @@
         ],
         "unit_id": "C1-B1-5-2",
         "total_price": 2080200,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 85
       },
       {
@@ -70,7 +70,7 @@
         ],
         "unit_id": "C1-B2-2-3",
         "total_price": 2630500,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 104
       },
       {
@@ -83,7 +83,7 @@
         ],
         "unit_id": "C3-TH17-4",
         "total_price": 8160000,
-        "unit_type": "town house",
+        "unit_type": "1",
         "bua": 200
       },
       {
@@ -94,7 +94,7 @@
         ],
         "unit_id": "C1-H1-8-1",
         "total_price": 6270100,
-        "unit_type": "penthouse",
+        "unit_type": "4",
         "bua": 238
       },
       {
@@ -109,7 +109,7 @@
         ],
         "unit_id": "C1-A1-3-2",
         "total_price": 3300500,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 139
       },
       {
@@ -124,7 +124,7 @@
         ],
         "unit_id": "C1-A1-G-5",
         "total_price": 3000000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 130
       },
       {
@@ -137,7 +137,7 @@
         ],
         "unit_id": "C3-CH13-G-1",
         "total_price": 6790000,
-        "unit_type": "chalet",
+        "unit_type": "3",
         "bua": 175
       },
       {
@@ -149,7 +149,7 @@
         ],
         "unit_id": "C3-TW13-1",
         "total_price": 9070000,
-        "unit_type": "twin house",
+        "unit_type": "2",
         "bua": 226
       },
       {
@@ -162,7 +162,7 @@
         ],
         "unit_id": "C3-TH18-3",
         "total_price": 7150000,
-        "unit_type": "town house",
+        "unit_type": "1",
         "bua": 195
       },
       {
@@ -177,7 +177,7 @@
         ],
         "unit_id": "C1-B2-G-3",
         "total_price": 2250700,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 105
       },
       {
@@ -188,7 +188,7 @@
         ],
         "unit_id": "C3-TH22-1",
         "total_price": 8390000,
-        "unit_type": "town house",
+        "unit_type": "1",
         "bua": 199
       },
       {
@@ -199,7 +199,7 @@
         ],
         "unit_id": "C1-G1-8-1",
         "total_price": 5760400,
-        "unit_type": "penthouse",
+        "unit_type": "4",
         "bua": 226
       },
       {
@@ -214,7 +214,7 @@
         ],
         "unit_id": "C1-B1-8-2",
         "total_price": 6110600,
-        "unit_type": "penthouse",
+        "unit_type": "4",
         "bua": 219
       },
       {
@@ -229,7 +229,7 @@
         ],
         "unit_id": "c1-c2-8-2",
         "total_price": 6210200,
-        "unit_type": "penthouse",
+        "unit_type": "4",
         "bua": 221
       },
       {
@@ -247,7 +247,7 @@
         ],
         "unit_id": "3brg",
         "total_price": 2390000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 126
       },
       {
@@ -260,7 +260,7 @@
         ],
         "unit_id": "C3-TH15-2",
         "total_price": 7390000,
-        "unit_type": "town house",
+        "unit_type": "1",
         "bua": 197
       },
       {
@@ -275,7 +275,7 @@
         ],
         "unit_id": "C1-A2-2-1",
         "total_price": 4120800,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 166
       },
       {
@@ -293,7 +293,7 @@
         ],
         "unit_id": "2brg",
         "total_price": 1835000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 88
       },
       {
@@ -311,7 +311,7 @@
         ],
         "unit_id": "tha",
         "total_price": 5550000,
-        "unit_type": "twin house",
+        "unit_type": "2",
         "bua": 167
       },
       {
@@ -329,7 +329,7 @@
         ],
         "unit_id": "2brl",
         "total_price": 2145000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 128
       },
       {
@@ -340,7 +340,7 @@
         ],
         "unit_id": "D4-LF52",
         "total_price": 1882000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 70
       },
       {
@@ -351,7 +351,7 @@
         ],
         "unit_id": "B204",
         "total_price": 2936412,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 257
       },
       {
@@ -362,7 +362,7 @@
         ],
         "unit_id": "A204",
         "total_price": 2936412,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 257
       },
       {
@@ -376,7 +376,7 @@
         ],
         "unit_id": "A25714",
         "total_price": 1681500,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 95
       },
       {
@@ -387,7 +387,7 @@
         ],
         "unit_id": "A502",
         "total_price": 4328775,
-        "unit_type": "duplex",
+        "unit_type": "5",
         "bua": 338
       },
       {
@@ -400,7 +400,7 @@
         ],
         "unit_id": "D1063",
         "total_price": 1412980,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 112
       },
       {
@@ -415,7 +415,7 @@
         ],
         "unit_id": "D6032",
         "total_price": 3180000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 159
       },
       {
@@ -433,7 +433,7 @@
         ],
         "unit_id": "thb",
         "total_price": 4450000,
-        "unit_type": "twin house",
+        "unit_type": "2",
         "bua": 191
       },
       {
@@ -451,7 +451,7 @@
         ],
         "unit_id": "1brg",
         "total_price": 1360000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 64
       },
       {
@@ -462,7 +462,7 @@
         ],
         "unit_id": "B402",
         "total_price": 2704590,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 236
       },
       {
@@ -473,7 +473,7 @@
         ],
         "unit_id": "A171",
         "total_price": 3649393,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 348
       },
       {
@@ -487,7 +487,7 @@
         ],
         "unit_id": "C10831",
         "total_price": 3439636,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 180
       },
       {
@@ -501,7 +501,7 @@
         ],
         "unit_id": "BB24111",
         "total_price": 1185900,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 67
       },
       {
@@ -515,7 +515,7 @@
         ],
         "unit_id": "A6831",
         "total_price": 4674000,
-        "unit_type": "penthouse",
+        "unit_type": "4",
         "bua": 228
       },
       {
@@ -526,7 +526,7 @@
         ],
         "unit_id": "PH-CH51-202",
         "total_price": 3528000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 112
       },
       {
@@ -540,7 +540,7 @@
         ],
         "unit_id": "A6705",
         "total_price": 3610800,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 124
       },
       {
@@ -554,7 +554,7 @@
         ],
         "unit_id": "C11014",
         "total_price": 2425800,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 124
       },
       {
@@ -572,7 +572,7 @@
         ],
         "unit_id": "3brl",
         "total_price": 2790000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 190
       },
       {
@@ -583,7 +583,7 @@
         ],
         "unit_id": "PH-CH7-101",
         "total_price": 2462000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 117
       },
       {
@@ -594,7 +594,7 @@
         ],
         "unit_id": "F201",
         "total_price": 1769286,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 123
       },
       {
@@ -608,7 +608,7 @@
         ],
         "unit_id": "CM0301",
         "total_price": 1055068,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 77
       },
       {
@@ -622,7 +622,7 @@
         ],
         "unit_id": "A6737",
         "total_price": 3813000,
-        "unit_type": "penthouse",
+        "unit_type": "4",
         "bua": 186
       },
       {
@@ -636,7 +636,7 @@
         ],
         "unit_id": "D6011",
         "total_price": 2460000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 123
       },
       {
@@ -650,7 +650,7 @@
         ],
         "unit_id": "E8331",
         "total_price": 3291200,
-        "unit_type": "penthouse",
+        "unit_type": "4",
         "bua": 176
       },
       {
@@ -664,7 +664,7 @@
         ],
         "unit_id": "AA9811",
         "total_price": 2502600,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 128
       },
       {
@@ -678,7 +678,7 @@
         ],
         "unit_id": "BB24632",
         "total_price": 3880000,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 194
       },
       {
@@ -689,8 +689,13 @@
         ],
         "unit_id": "A101",
         "total_price": 1265004,
-        "unit_type": "apartment",
+        "unit_type": "0",
         "bua": 92
       }
     ]
   }
+ 
+  
+ 
+
+  

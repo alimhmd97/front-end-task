@@ -94,6 +94,16 @@ a {
 .css-1ex1afd-MuiTableCell-root{
   padding: 16px 14px !important;
 }
+/* mui pagination */
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root{
+    background-color: #E5E5E5 !important;
+  border-radius: 50%;
+}
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+  background-color: #2419BE !important;
+  color: white !important;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
