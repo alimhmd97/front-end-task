@@ -13,19 +13,21 @@ function handleClick(event) {
 
 export  function BreadCrumb({title}) {
   const breadcrumbs = [
-    <Link underline="hover" key="1" color="inherit" href="/" onClick={handleClick}>
+    <Link style={{display:'flex'}} underline="hover" key="1" color="inherit" href="/" onClick={handleClick}>
       <HomeIcon sx={{fontSize:'1rem'}}/>
     </Link>,
     <Link
       underline="hover"
       key="2"
       color="inherit"
-      href="/material-ui/getting-started/installation/"
+      href="#"
       onClick={handleClick}
+      style={{fontSize:'11px'}}
     >
      Home
     </Link>,
-    <Typography key="3" color="text.primary">
+    <Typography       style={{fontSize:'11px'}}
+    key="3" color="text.primary">
      {title}
     </Typography>,
   ];

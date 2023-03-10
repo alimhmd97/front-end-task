@@ -91,8 +91,8 @@ a {
   text-decoration: none;
 }
 /* mui table cell */
-.css-1ex1afd-MuiTableCell-root{
-  padding: 16px 14px !important;
+.css-1ex1afd-MuiTableCell-root,.css-1ygcj2i-MuiTableCell-root{
+  padding: 10px !important;
 }
 /* mui pagination */
 .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root{
