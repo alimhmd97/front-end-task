@@ -1,3 +1,14 @@
 .dashbord_wrapper{
     padding: 4rem 8rem 0;
 }
+@media screen and (min-width: 480px)and (max-width: 1000px) {
+    .dashbord_wrapper{
+        padding: 1rem 2rem 0;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .dashbord_wrapper{
+        padding: .5rem 1rem 0;
+    }
+  }

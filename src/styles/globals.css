@@ -95,10 +95,12 @@ a {
   padding: 10px !important;
 }
 /* mui pagination */
+.css-w05zow-MuiButtonBase-root-MuiPaginationItem-root,
 .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root{
     background-color: #E5E5E5 !important;
   border-radius: 50%;
 }
+.css-w05zow-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected,
 .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
   background-color: #2419BE !important;
   color: white !important;
