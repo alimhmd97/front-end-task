@@ -11,7 +11,6 @@ let modifiedUnits = []
 const sortByArr = ['Unit ID', 'Unit type', 'Unit price']
 const Dashboard = () => {
     const [selectedSortby, setSelectedSortby] = useState('');
-    // const [searchUnitID, setSearchUnitID] = useState('');
     const [renderedUnits, setRenderedUnits] = useState([]);
     const [pageNumber, setPageNumber] = useState(1);
 
@@ -71,7 +70,6 @@ const Dashboard = () => {
             <Navbar />
             <div className={styles.dashbord_wrapper}>
                 <Header title={'Dashboard'} />
-                {/* selectedFilter={selectedFilter} setSelectedFilter={setSelectedFilter} searchUnitID={searchUnitID} setSearchUnitID={setSearchUnitID} */}
                 <Filterby
                     selectedSortby={selectedSortby} setSelectedSortby={setSelectedSortby}
                     sortByArr={sortByArr} applyFIlter={applyFIlter} applySort={applySort} />

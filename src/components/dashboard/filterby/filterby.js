@@ -6,7 +6,6 @@ import { useDebounce } from 'use-lodash-debounce'
 
 
 const Filterby = ({applyFIlter,applySort,sortByArr,selectedSortby, setSelectedSortby}) => {
-    // const [selectedSortby, setSelectedSortby] = useState('');
     const [searchUnitID, setSearchUnitID] = useState('');
 // --------------------------------------------------------------------------------------------
 const onselectSortBy=(sortBy)=>{

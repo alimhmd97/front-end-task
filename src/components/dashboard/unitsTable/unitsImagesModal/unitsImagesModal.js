@@ -15,7 +15,6 @@ const style = {
   width: '86%',
   outline: 'none'
 };
-// 151 240 600 960
 export function UnitsImagesModal({ imagesArr }) {
   const [open, setOpen] = useState(false);
   const [renderedImgIndex, setrenderedImgIndex] = useState();
@@ -40,7 +39,6 @@ setrenderedImgIndex(renderedImgIndex+1)
   return (
     <div>
       {imagesArr[0] && <Image loading='lazy' width='40' height='40' src={imagesArr[0]} alt='' style={{ cursor: 'pointer' }} onClick={handleOpen} />}
-      {/* <Button onClick={handleOpen}>Open modal</Button> */}
       <Modal
         open={open}
         onClose={handleClose}
