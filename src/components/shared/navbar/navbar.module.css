@@ -1,0 +1,8 @@
+.navbar_wrapper{
+    width: 100vw;
+    min-height: 3.8rem;
+    background-color:  #2419BE;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}

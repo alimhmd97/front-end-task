@@ -1,0 +1,39 @@
+.filterby_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 1rem 0 .5rem;
+}
+
+.filterby_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 10px;
+}
+
+.filter_input {
+    border-radius: 3px;
+    border: none;
+    padding: 4px 8px 4px 8px;
+    height: 40px;
+    height: 1.4rem;
+}
+.sortby_select:focus,
+.filter_input:focus {
+    outline: none;
+}
+.sortby_select{
+    border: none;
+background-color: inherit;
+}
+
+.sortby_wrapper{
+    display: flex;
+  align-items: center;
+}
+
+
+

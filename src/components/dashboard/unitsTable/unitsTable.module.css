@@ -1,0 +1,27 @@
+.for_sale {
+
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    border-radius: 3px;
+    padding: .3rem;
+    color: white;
+    background: #2419BE;
+}
+
+.not_for_sale {
+
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    border-radius: 3px;
+    padding: .3rem;
+    color: white;
+    background-color: #616161;
+}
+
+.table_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
