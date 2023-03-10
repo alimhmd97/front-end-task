@@ -1,5 +1,5 @@
 import { Navbar } from '../shared/navbar/navbar';
-import { Header } from '../uiComponents/header/header';
+import { Header } from '../shared/header/header';
 import styles from './dashboard.module.css';
 import { Filterby } from './filterby/filterby';
 import { UnitsTable } from './unitsTable/unitsTable';

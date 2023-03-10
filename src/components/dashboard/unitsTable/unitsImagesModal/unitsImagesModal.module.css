@@ -3,6 +3,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    
 }
 
 .arrows{
@@ -24,4 +25,10 @@
     top: 15px;
     right: 12%;
     cursor: pointer;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
