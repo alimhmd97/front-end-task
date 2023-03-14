@@ -32,7 +32,7 @@ return (
             </div>
 
             <div className={styles.sortby_wrapper}>
-              <FilterListIcon sx={{fontSize:'1rem'}}/> <span style={{fontSize: '11px',paddingRight:'5px'}}>Sort by</span>
+            <div className={styles.sort_by}>  <FilterListIcon sx={{fontSize:'1rem',marginRight:'5px'}}/> <span style={{fontSize: '11px',paddingRight:'5px'}}>Sort by</span></div>
               <select onChange={(e) => { onselectSortBy(e.target.value) }} className={styles.sortby_select} value={selectedSortby}>
                     {sortByArr.map((el, i) => {
                         return <option key={i}  value={el}>{el}</option>

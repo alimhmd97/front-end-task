@@ -34,6 +34,26 @@ background-color: inherit;
     display: flex;
   align-items: center;
 }
-
+.sort_by{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 600px)  {
+    .sort_by{
+        display: flex;
+        align-items: center;
+    }
+.sortby_wrapper{
+    margin:  15px 0 0;
+    justify-content: space-between;
+}
+.filterby_wrapper{
+    flex-direction: column;
+}
+.filter_input{
+    width: 100%;
+    margin-top: 10px;
+}
+}
 
 
