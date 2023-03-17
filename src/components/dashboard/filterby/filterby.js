@@ -17,7 +17,7 @@ const onselectSortBy=(sortBy)=>{
 // --------------------------------------------------------------------------------------------
 useEffect(() => {
     applyFIlter(searchUnitID)
-}, [debouncedSearchUnitID]);
+}, [applyFIlter, debouncedSearchUnitID]);
 // --------------------------------------------------------------------------------------------
 useEffect(() => {
     setSelectedSortby[sortByArr[0]]

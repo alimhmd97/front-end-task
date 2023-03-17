@@ -28,8 +28,19 @@ export function UnitsImagesModal({ imagesArr }) {
   const handleClose = () => setOpen(false);
   // --------------------------------------------------------------------------------------------
   useEffect(() => {
+    const myInterval =setInterval(() => {
+  setrenderedImgIndex(prev=>{
+    if(prev===imagesArr.length-1){
+      return 0
+    }
+    return++prev})
+}, 1000);
+
     setIsloading(true)
-    setrenderedImgIndex(0)
+    setrenderedImgIndex(0);
+    return ()=>{
+      clearInterval(myInterval);
+    }
   }, [imagesArr]);
   // --------------------------------------------------------------------------------------------
 const renderNextImg=()=>{
