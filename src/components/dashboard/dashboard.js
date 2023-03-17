@@ -6,26 +6,16 @@ import { UnitsTable } from './unitsTable/unitsTable';
 import { useState, useEffect } from 'react';
 import { Muipagination } from '../shared/pagination/muipagination'
 import axios from 'axios';
-let units = []
+// let units = []
 let modifiedUnits = []
 const sortByArr = ['Unit ID', 'Unit type', 'Unit price']
-const Dashboard = () => {
+const Dashboard = ({units=[]}) => {
     const [selectedSortby, setSelectedSortby] = useState('');
     const [renderedUnits, setRenderedUnits] = useState([]);
     const [pageNumber, setPageNumber] = useState(1);
 
     // --------------------------------------------------------------------------------------------
-    const getUnits = async () => {
-        try {
-            const res = await axios(process.env.NEXT_PUBLIC_BASE_URL);
-            units = res.data;
-            modifiedUnits = units;
-            applySort(sortByArr[0])
-            paginatUnits(1)
-        } catch (err) {
-
-        }
-    }
+  
     // --------------------------------------------------------------------------------------------
     const applySort = (sortby) => {
         setSelectedSortby(sortby)
@@ -62,8 +52,10 @@ const Dashboard = () => {
     }
     // --------------------------------------------------------------------------------------------
     useEffect(() => {
-        getUnits()
-    }, []);
+        modifiedUnits = units;
+        applySort(sortByArr[0])
+        paginatUnits(1)
+        }, []);
     // --------------------------------------------------------------------------------------------
     return (
         <div >

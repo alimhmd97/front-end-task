@@ -12,7 +12,8 @@
     "build": "next build",
     "start": "concurrently \"yarn start:server\" \"next start\"",
     "depcheck": "yarn-check -u",
-    "lint": "next lint"
+    "lint": "next lint",
+"deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -33,6 +34,7 @@
     "concurrently": "^7.6.0",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
+    "gh-pages": "^5.0.0",
     "json-server": "^0.17.2",
     "yarn-check": "^0.0.3"
   }
