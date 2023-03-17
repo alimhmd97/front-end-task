@@ -8,9 +8,10 @@
   },
   "scripts": {
     "start:server": "json-server -p 3005 db.json",
-    "dev": "concurrently  \"next dev\"",
+    "dev": "concurrently \"yarn start:server\" \"next dev\"",
     "build": "next build",
-    "start": "concurrently  \"next start\"",
+    "start": "concurrently \"yarn start:server\" \"next start\"",
+        "depcheck": "yarn-check -u",
     "lint": "next lint"
   },
   "dependencies": {
