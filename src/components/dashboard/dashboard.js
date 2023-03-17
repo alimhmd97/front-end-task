@@ -5,7 +5,7 @@ import { Filterby } from './filterby/filterby';
 import { UnitsTable } from './unitsTable/unitsTable';
 import { useState, useEffect } from 'react';
 import { Muipagination } from '../shared/pagination/muipagination'
-import axios from 'axios';
+// import axios from 'axios';
 // let units = []
 let modifiedUnits = []
 const sortByArr = ['Unit ID', 'Unit type', 'Unit price']

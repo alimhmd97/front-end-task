@@ -1,7 +1,7 @@
 import styles from './filterby.module.css'
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { useEffect, useState } from 'react';
-import { useDebounce } from 'use-lodash-debounce'
+// import { useDebounce } from 'use-lodash-debounce'
 
 
 
@@ -11,13 +11,13 @@ const Filterby = ({applyFIlter,applySort,sortByArr,selectedSortby, setSelectedSo
 const onselectSortBy=(sortBy)=>{
     applySort(sortBy)
    }
-   const debouncedSearchUnitID = useDebounce(searchUnitID, 800);
+//    const debouncedSearchUnitID = useDebounce(searchUnitID, 800);
 // --------------------------------------------------------------------------------------------
 
 // --------------------------------------------------------------------------------------------
-useEffect(() => {
-    applyFIlter(searchUnitID)
-}, [applyFIlter, debouncedSearchUnitID]);
+// useEffect(() => {
+//     applyFIlter(searchUnitID)
+// }, [applyFIlter, debouncedSearchUnitID]);
 // --------------------------------------------------------------------------------------------
 useEffect(() => {
     setSelectedSortby[sortByArr[0]]
@@ -28,6 +28,7 @@ return (
             <div>
             <span className={styles.filterby_text}>Filter by ID:</span> <input onChange={(e)=>{
                 setSearchUnitID(e.target.value)
+                applyFIlter(e.target.value)
             }} className={styles.filter_input} placeholder='filter'/>
             </div>
 
